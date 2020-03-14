@@ -1,0 +1,52 @@
+body{
+    background-image: url(./imgs/mount.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    h1{
+        font-size: 3vw;
+        text-align: center;
+        margin-bottom: 1em;
+        color:white;
+    }
+    .inputi{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3em;
+
+        .input{
+            margin-right: 1em;
+            text-align: center;
+            margin-bottom: 3em;
+            height:2vw;
+            width:250px;
+            font-size: large;
+        }
+        .clear{
+            margin-left: 1em;
+            margin-bottom: 3em;
+        }
+
+    }
+}
+
+.paragrafi{
+    text-decoration: underline;
+}
+
+table th, table td{
+    border-bottom: 1px solid rgb(223, 223, 223);
+}
+
+table th{
+    padding-bottom: 2em;
+    text-align: left;
+}
+
+table{
+    width: 75%;
+    margin:0 auto;
+    color:rgb(255, 255, 255);
+}
